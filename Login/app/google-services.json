@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "935256945047",
+    "firebase_url": "https://deepshikhatry-default-rtdb.firebaseio.com",
+    "project_id": "deepshikhatry",
+    "storage_bucket": "deepshikhatry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935256945047:android:cb77ed96eec72f5f44d4d2",
+        "android_client_info": {
+          "package_name": "com.example.deepshikhatry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935256945047-49pa5bq111aqfr71tohlrhfi4aj310b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA36FHFPw7Gckgy4sV2CRmNjdGD6kPLBT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935256945047-49pa5bq111aqfr71tohlrhfi4aj310b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935256945047:android:5e3a4f0269a73d0b44d4d2",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935256945047-49pa5bq111aqfr71tohlrhfi4aj310b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA36FHFPw7Gckgy4sV2CRmNjdGD6kPLBT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935256945047-49pa5bq111aqfr71tohlrhfi4aj310b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

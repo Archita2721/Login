@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Login">
+        <activity android:name=".Booking"></activity>
+        <activity android:name=".SPRegister" />
+        <activity
+            android:name=".Cleaning"
+            android:label="Cleaning"
+            android:parentActivityName=".BottomNav">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BottomNav" />
+        </activity>
+        <activity
+            android:name=".Appliance_Repair"
+            android:label="Appliance Repair"
+            android:parentActivityName=".BottomNav">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BottomNav" />
+        </activity>
+        <activity
+            android:name=".Carpenter"
+            android:label="Carpenter"
+            android:parentActivityName=".BottomNav">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BottomNav" />
+        </activity>
+        <activity
+            android:name=".Plumbing"
+            android:label="Plumbing"
+            android:parentActivityName=".BottomNav">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BottomNav" />
+        </activity>
+        <activity
+            android:name=".Electrical"
+            android:label="Electrical"
+            android:parentActivityName=".BottomNav">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BottomNav" />
+        </activity>
+        <activity
+            android:name=".BottomNav"
+            android:label="@string/title_activity_bottom_nav"
+            android:theme="@style/Theme.Login.noActionBar" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
